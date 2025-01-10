@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40pt;
+    top: 15rem;
+    font-weight: bold;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1pt;
+    background-color: rgba(0, 0, 0, 0.499);
+    padding: 1rem;
+}
+
+#info1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    top: 23rem;
+    font-weight: bold;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .3pt;
+    background-color: rgba(0, 0, 0, 0.499);
+    padding: 1rem;
+}
+
+#greet {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30pt;
+    top: 40rem;
+    font-weight: bold;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .3pt;
+}
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.button1 {
+
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /*left: 42.5vw;*/
+    /*top: 45vh;*/
+
+}
+
+button {
+    appearance: none;
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5px;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+button:disabled {
+    pointer-events: none;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transform: translateY(-2px);
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+body {
+    background-image: url(caveback.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
